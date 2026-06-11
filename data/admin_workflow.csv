@@ -1,0 +1,12 @@
+status,stage_order,owner,student_visible,readonly_reviewer_visible,admin_action,next_status_options,notes
+Draft,1,Nominator,No,Optional,Create or save incomplete record,Submitted; Archived,May originate from Mercer faculty/staff/admin.
+Submitted,2,Nominator / system,No,Yes,Admin confirms completeness,Initial Validation; Needs Clarification; Rejected,
+Initial Validation,3,GIC Director / regional lead,No,Yes,"Validate partner, pathway, requirements, and fit with node",Admin Reviewed; Needs Clarification; Rejected,"For DR/Greece, initial regional validation happens here."
+Needs Clarification,4,Nominator,No,Yes,Provide missing details or backup files,Submitted; Initial Validation; Rejected,
+Admin Reviewed,5,QEP Database Working Group / Felix admin owner,No,Yes,"Normalize taxonomy, check fields, confirm annual review date",QEP Co-Director Approval Pending; Needs Clarification; Hidden/Internal,Admin review counts as validation for MVP.
+QEP Co-Director Approval Pending,6,QEP Co-Directors,No,Yes,Approve for publication or hold,Approved/Published; Hidden/Internal; Needs Clarification; Rejected,Final approval from QEP Co-Directors.
+Approved/Published,7,QEP Admin,Yes,Yes,Publish to student-facing search,Expired/Annual Review; Hidden/Internal; Archived,Only approved records show to students.
+Hidden/Internal,8,QEP Admin,No,Yes,Keep record available to internal reviewers only,QEP Co-Director Approval Pending; Approved/Published; Archived,Supports view-only group for unapproved programs.
+Expired/Annual Review,9,QEP Admin / GIC Director,No,Yes,Review in July and reapprove by August 20,Approved/Published; Needs Clarification; Archived,Annual governance checkpoint.
+Rejected,10,QEP Admin,No,Yes,Document reason and retain internally,Archived; Submitted,
+Archived,11,QEP Admin,No,Optional,Retain inactive historical record,Draft; Submitted,

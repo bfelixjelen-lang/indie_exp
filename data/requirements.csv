@@ -1,0 +1,18 @@
+requirement_id,opportunity_id,category,requirement_label,requirement_value,required_or_preferred,evidence_expected,match_use,match_weight,notes
+REQ-001,DR-001,Academic,Relevant coursework,"Engineering, environmental science, chemistry, data, or public health coursework",Preferred,Self-attested course list or informal transcript,Profile matching,High,Could be made required after validation.
+REQ-002,DR-001,Experience,Prior global/service experience,"DR program, MoM, study abroad, or service-learning experience",Preferred,Self-attestation; advisor confirmation later,Profile matching,High,Builds from QEP pathway logic.
+REQ-003,DR-001,Document,Resume or CV,Current resume/CV,Required,Uploaded PDF/DOCX metadata in future; demo upload optional,Readiness checklist,Medium,Do not store real files in public demo.
+REQ-004,DR-002,Academic,Education/STEM interest,"Education, engineering, STEM, or community education interest",Preferred,Self-attested major/minor/interests,Profile matching,High,
+REQ-005,DR-002,Skill,Cross-cultural communication,Willingness and preparation for cross-cultural service,Required,Reflection prompt or advisor discussion,Readiness checklist,High,
+REQ-006,DR-003,Skill,Data skills,"Excel, basic data cleaning, survey, GIS, or lab-data experience",Preferred,Resume/CV or portfolio,Profile matching,High,
+REQ-007,DR-003,Language,Spanish,Spanish language ability helpful,Preferred,Self-rating or placement,Profile matching,Medium,
+REQ-008,DR-004,Language,Spanish-English communication,Spanish coursework or bilingual communication interest,Preferred,Self-rating/course list,Profile matching,Medium,
+REQ-009,DR-005,Compliance,Clinical/shadowing readiness,"Any partner-required compliance, observation rules, or health/safety steps",Required if applicable,Admin checklist; partner docs,Admin validation,High,Restricted in production.
+REQ-010,GR-001,Academic,Humanities or social science inquiry,"Classics, philosophy, history, art history, anthropology, or related interest",Preferred,Major/minor/course list,Profile matching,High,
+REQ-011,GR-001,Skill,Research methods,"Basic research, writing, documentation, or archival skills",Preferred,Resume/CV; writing sample,Profile matching,High,
+REQ-012,GR-002,Interest,Migration/culture interest,"Interest in migration, East-West studies, identity, culture, religion, philosophy, or history",Preferred,Interest survey/reflection,Profile matching,High,
+REQ-013,GR-003,Document,Resume and statement,Resume/CV and short statement of interest,Required,Upload/metadata in future,Readiness checklist,Medium,Handshake/partner requirements may vary.
+REQ-014,GR-003,Language,Greek or relevant language exposure,"Greek not required, but language/cultural preparation preferred",Preferred,Self-rating/course list,Profile matching,Low,
+REQ-015,MCN-001,Experience,Community engagement,"Service, tutoring, public health, language partner, or local nonprofit experience",Preferred,Self-attested service list,Profile matching,High,
+REQ-016,MCN-002,Skill,Database/research organization,"Comfort with spreadsheets, source tracking, and structured data entry",Required,Resume/CV or sample task,Profile matching,High,Good student-worker seed role.
+REQ-017,HS-001,Source,Handshake posting active,Active Handshake posting or employer record,Required,Handshake URL and CCPD confirmation,Admin validation,High,Future integration.

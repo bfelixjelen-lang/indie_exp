@@ -1,0 +1,5 @@
+global_node_id,global_node_name,node_type,primary_country,region,build_priority,qep_role,default_visibility,notes
+GIC-DR,Dominican Republic,Global Impact Center / regional pathway,Dominican Republic,Caribbean / Latin America,1,First MVP node; QEP footprint and clean water/STEM pathways,Hidden until approved,DR tab should be first in interface.
+GIC-GR,Greece,Global Impact Center / pilot node,Greece,Europe / Mediterranean,2,Second MVP node; existing Greece pilot and East-West culture/migration work,Hidden until approved,Greece tab should sit beside DR in same interface.
+GIC-MCN,Macon / United States Local-Global,Global-at-Home node,United States,North America,3,Conceptual final GIC; global starts local; onshore global/community pathways,Hidden until approved,"Use for local preparation, migrant/refugee/community-language and partner-support pathways."
+GIC-OTHER,Other / Future GIC,Future global node,Varies,Varies,99,Placeholder for later regions,Hidden until approved,Use only for test records in MVP.

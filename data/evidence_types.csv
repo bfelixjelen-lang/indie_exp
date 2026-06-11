@@ -1,0 +1,10 @@
+evidence_type_id,evidence_name,verification_level,student_visible_label,use_case,restricted,notes
+EVID-SELF,Self-attestation,Self-reported,Tell us about your experience,Initial matching; low-risk filters,No,Good for prototype profile matching.
+EVID-ADVISOR,Advisor confirmation,Mercer verified,Advisor can confirm,Future readiness/approval step,No,Could be modeled in advisor view.
+EVID-FACULTY,Faculty confirmation,Mercer verified,Faculty can confirm,Research/service readiness,No,
+EVID-TRANSCRIPT,Informal transcript,Document supplied,Upload informal transcript,Academic/course matching,Restricted,P0 synthetic/demo only.
+EVID-RESUME,Resume/CV,Document supplied,Upload resume or CV,Skill/experience extraction; future AI parsing,Restricted,Do not store real files in public demo.
+EVID-PORTFOLIO,Portfolio/artifact,Document supplied,Upload portfolio or sample,Writing/design/research matching,Restricted,
+EVID-LANG,Language placement/self-rating,Self-reported or verified,Language level,Language matching,No,Can start self-reported.
+EVID-CERT,Certification/compliance document,Document supplied or verified,Certification/compliance,"Clinical, safety, partner requirements",Restricted,Future secured storage required.
+EVID-PARTNER,Partner confirmation/interview,External verified,Partner interview/confirmation,Final placement pathway,Restricted,Future workflow.
